@@ -1,0 +1,50 @@
+html {
+    background-color: white;
+    text-align: center;
+    margin-top: 3%;
+}
+
+body{
+    background: #20232c;
+    height: 80vh;
+    width: 30vw;
+    margin-left: 35%;
+    color: white;
+}
+
+#radio-group{
+    margin-top: 70px;
+}
+
+#player-choice{
+    padding-top: 40px;
+}
+
+#scoreboard {
+    padding-top: 60px;
+    font-weight: bolder;
+    padding-left: 40%;
+}
+
+#rock-logo{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+
+}
+
+#paper-logo{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+#scissor-logo{
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+}
+
+.choose{
+    padding-top: 20px;
+}

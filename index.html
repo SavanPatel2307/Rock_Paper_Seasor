@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <h1>Let's Play</h1>
+  <div id="radio-group">
+      <label>
+          <input type="radio" name="option" value="Scissors" />
+          Scissors
+          <img src="Images/scissor.png" id="scissor-logo">
+        
+      </label>
+      <label>
+        <input type="radio" name="option" value="paper" />
+        Paper
+        <img src="Images/paper.png" id="paper-logo">
+        
+      </label>
+      <label>
+        <input type="radio" name="option" value="rock" />
+        Rock
+        <img src="Images/rock.png" id="rock-logo">
+        
+      </label> 
+      </div>
+      <div class="choose">
+      <button type="button" id="rps-choose">Choose Option</button>
+    </div>
+    <div>
+      <h1 id="player-choice">You choose:</h1>
+      <h1 id="computer-choice">Computer choose:</h1>
+      <h2 id="result-message"></h2>
+    </div>
+    
+
+    <div id="scoreboard">
+        Wins: 0 - Loses: 0 - Ties: 0
+      </div>
+    <script src="main.js"></script>
+  </body>
+</html>
